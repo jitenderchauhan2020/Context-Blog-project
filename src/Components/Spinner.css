@@ -1,0 +1,37 @@
+.dots {
+    width: 13.4px;
+    height: 13.4px;
+    border-radius: 50%;
+    background: #474bff;
+    color: #474bff;
+    box-shadow: 0 0 0 3.4px;
+    position: relative;
+    animation: dots-39rdyvmd 2s infinite linear;
+ }
+ 
+ .dots:before,
+ .dots:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: #474bff;
+    transform: rotate(0deg) translate(20.2px);
+    animation: dots-c774cgmd 1s infinite;
+ }
+ 
+ .dots:after {
+    animation-delay: -0.5s;
+ }
+ 
+ @keyframes dots-39rdyvmd {
+    100% {
+       transform: rotate(1turn);
+    }
+ }
+ 
+ @keyframes dots-c774cgmd {
+    100% {
+       transform: rotate(1turn) translate(22.4px);
+    }
+ }
