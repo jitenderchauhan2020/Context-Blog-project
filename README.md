@@ -1,3 +1,6 @@
+In this project I learned about context API which make Development Easy
+Creared a blog Context app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
